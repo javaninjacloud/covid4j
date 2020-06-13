@@ -2,7 +2,7 @@
 
 ## Spring Boot REST Api for fetching Covid-19 Stats for country/state/city
 
-Include the following maven dependency
+Include the following maven dependency:-
 ```
 <dependency>
     <groupId>io.javaninja.ajeet</groupId>
