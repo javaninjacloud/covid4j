@@ -1,8 +1,8 @@
-# covid4j
+# covid4j - Rest API for pulling Covid-19 Stats
 
 ## Spring Boot REST Api for fetching Covid-19 Stats for country/state/city
 
-Inclue the following maven dependency
+Include the following maven dependency
 ```
 <dependency>
     <groupId>io.javaninja.ajeet</groupId>
