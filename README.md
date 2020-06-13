@@ -21,7 +21,7 @@ Get data by state or city
 Params 'country' and 'cityOrState' are not case-sensitive.
 
 ### Sample response for country 'India'
-```
+```json
 {
 "confirmed": "309K",
 "recovered": "154K",
