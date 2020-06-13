@@ -3,7 +3,7 @@
 ## Spring Boot REST Api for fetching Covid-19 Stats for country/state/city
 
 Include the following maven dependency
-```maven
+```
 <dependency>
     <groupId>io.javaninja.ajeet</groupId>
     <artifactId>covid4j</artifactId>
@@ -13,10 +13,14 @@ Include the following maven dependency
 
 ### API's exposed:-
 Get data by country
+```java
 @GetMapping("/getCovidDataByCountry/{country}")
+```
 
 Get data by state or city
+```java
 @GetMapping("/getCovidDataByCityOrState/{cityOrState}")
+```
 
 Params 'country' and 'cityOrState' are not case-sensitive.
 
