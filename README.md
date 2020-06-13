@@ -12,13 +12,13 @@ Include the following maven dependency
 ```
 
 ### API's exposed:-
-Get data by country
+Get data by country:-
 ```java
 @GetMapping("/getCovidDataByCountry/{country}")
 ```
 
 
-Get data by state or city
+Get data by state or city:-
 ```java
 @GetMapping("/getCovidDataByCityOrState/{cityOrState}")
 ```
