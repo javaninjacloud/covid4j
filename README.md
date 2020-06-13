@@ -1,4 +1,4 @@
-# covid4j - Rest API for pulling Covid-19 Stats
+# covid4j - Java API for pulling Covid-19 Stats
 
 ## Spring Boot REST Api for fetching Covid-19 Stats for country/state/city
 
