@@ -21,7 +21,7 @@ Get data by state or city
 Params 'country' and 'cityOrState' are not case-sensitive.
 
 ### Sample response for country 'India'
-
+```
 {
 "confirmed": "309K",
 "recovered": "154K",
@@ -30,3 +30,4 @@ Params 'country' and 'cityOrState' are not case-sensitive.
 "confirmedNewDeaths": "+386",
 "lastUpdated": "Updated less than 1 hour ago"
 }
+```
