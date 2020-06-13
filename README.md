@@ -15,12 +15,20 @@ Include the following maven dependency
 Get data by country:-
 ```java
 @GetMapping("/getCovidDataByCountry/{country}")
+    public CovidStats getCovidDataByCountry(@PathVariable String country) throws IOException {
+
+        return CovidApi.getAllCovidStatsForCountry(country);
+    }
 ```
 
 
 Get data by state or city:-
 ```java
 @GetMapping("/getCovidDataByCityOrState/{cityOrState}")
+    public CovidStats getCovidDataByCityOrState(@PathVariable String cityOrState) throws IOException {
+
+        return CovidApi.getAllCovidStatsForCityOrState(cityOrState);
+    }
 ```
 
 Params 'country' and 'cityOrState' are not case-sensitive.
