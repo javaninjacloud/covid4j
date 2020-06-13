@@ -7,7 +7,7 @@ Include the following maven dependency
 <dependency>
     <groupId>io.javaninja.ajeet</groupId>
     <artifactId>covid4j</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
 </dependency>
 ```
 
