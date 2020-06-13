@@ -17,6 +17,7 @@ Get data by country
 @GetMapping("/getCovidDataByCountry/{country}")
 ```
 
+
 Get data by state or city
 ```java
 @GetMapping("/getCovidDataByCityOrState/{cityOrState}")
