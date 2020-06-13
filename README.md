@@ -1,4 +1,4 @@
-> # covid4j
+# covid4j
 
 ## Spring Boot REST Api for fetching Covid-19 Stats for country/state or city
 
