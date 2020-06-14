@@ -9,7 +9,7 @@ Include the following maven dependency:-
 <dependency>
     <groupId>io.javaninja.ajeet</groupId>
     <artifactId>covid4j</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
 </dependency>
 ```
 
@@ -38,11 +38,13 @@ Params 'country' and 'cityOrState' are not case-sensitive.
 ### Sample response for country 'India'
 ```json
 {
-    "confirmed": "309K",
-    "recovered": "154K",
-    "deaths": "8,884",
-    "confirmedNewCases": "+11,458",
-    "confirmedNewDeaths": "+386",
-    "lastUpdated": "Updated less than 1 hour ago"
+    "name": "india",
+    "type": "country",
+    "confirmed": "321K",
+    "recovered": "162K",
+    "deaths": "9,195",
+    "confirmedNewCases": "+11,929",
+    "confirmedNewDeaths": "+311",
+    "lastUpdated": "Updated less than 20 mins ago"
 }
 ```
