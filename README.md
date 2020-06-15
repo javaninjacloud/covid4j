@@ -1,7 +1,8 @@
 # covid4j - Java API for pulling Covid-19 Stats
 
 ## Spring Boot REST Api for fetching Covid-19 Stats for country/state/city
-More details available here:-
+
+Data is sourced from WHO and is regularly updated. More details available here:-
 https://javaninja.io/spring-boot-rest-api-for-pulling-covid-19-stats/
 
 Include the following maven dependency:-
